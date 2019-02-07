@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style></style>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="products.css" />   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="myScript.js"></script>
+</head>
+
+<body>
+
+
+
+    <header>
+
+        <h1> Pedicuere, manicure and massage services </h1>
+        <p id="phone"></p>
+        <p id="name">Massage and nails<br /> by Kate</p>
+
+    </header>
+
+
+    <nav id="nav">
+        <a id="logo" href="Home.html"> <img id="logo" src="img/logo1.png" onmouseover="hover(this);" onmouseout="unhover(this);" /> </a>
+        <ul>
+            <li><a id="menu" href="Service.html">Services</a></li>
+            <li><a id="menu" href="Products.html">Products</a></li>
+            <li><a id="menu" href="Gallery.html">Gallery</a></li>
+            <li><a id="menu" href="About.html">About</a></li>
+            <li><a id="menu" href="Findus.html">Find Us</a></li>
+
+        </ul>
+    </nav>
+
+
+    <div class="resize">
+        <div class="item">
+            <img src="img/scissor1.png" style="width:250px;height:auto;">
+            <h2>Nail scissors</h2>
+            <p class="price">€25.00</p>
+            <p>Scissors for a perferct manicure</p>
+
+        </div>
+
+    </div>
+
+    <div class="resize">
+        <div class="item">
+            <img src="img/scissor2.png" style="width:250px;height:auto;">
+            <h2>Cuticle scissors</h2>
+            <p class="price">€25.00</p>
+            <p>Scissors for cuticles</p>
+
+        </div>
+    </div>
+    
+    <div class="resize">
+        <div class="item">
+            <img src="img/oil.jpg" style="width:250px;height:auto;">
+            <h2>Massage oil</h2>
+            <p class="price">€12.00</p>
+            <p>Massage oil</p>
+        </div>
+    </div>
+   
+    <div class="resize">
+        <div class="item">
+            <img src="img/file.png" style="width:250px;height:auto;">
+            <h2>File</h2>
+            <p class="price">€5.00</p>
+            <p>File</p>
+        </div>
+    </div>
+   
+    <div class="resize">
+        <div class="item">
+            <img src="img/pusher.png" style="width:250px;height:auto;">
+            <h2>Pusher</h2>
+            <p class="price">€7.00</p>
+            <p>Cuticle pusher</p>
+        </div>
+    </div>
+    
+    <div class="resize">
+        <div class="item">
+            <img src="img/corner.png" style="width:250px;height:auto;">
+            <h2>Corner</h2>
+            <p class="price">€6.00</p>
+            <p>File</p>
+        </div>
+    </div>
+    
+
+    <footer>
+        Massage and nails by Kate <br /> 5 Millbank Glen, Dromahair, Co Leitrim <br /> 0873379891
+    </footer>
+
+    <script>
+        //stick the nav bar on top on scroll
+        window.onscroll = function () { stickNav() };
+
+        var navbutton = document.getElementById("nav");
+        var sticky = navbutton.offsetTop;
+    </script>
+
+</body>
+</html>

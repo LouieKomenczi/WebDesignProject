@@ -1,0 +1,76 @@
+﻿#slide {
+    width: auto;
+    overflow: auto;
+}
+
+#serviceLink {
+    width: 33%;
+}
+
+#productsLink {
+    width: 62%;
+}
+
+#sideBar {
+    border:ridge;
+    border-color: #123C69;
+    width: 10px;
+    height: 630px;
+    float: right;
+    margin-top: 20px;
+}
+
+#galleryLink {
+    width: 30%;
+}
+
+
+#aboutLink {
+    width: 30%;
+}
+
+#serviceLink, #productsLink, #galleryLink, #aboutLink {
+    position:absolute;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: auto;    
+    position: relative;
+    z-index:1;
+}
+  
+
+.textOverPhoto {
+    position: absolute;
+    font-size:xx-large;
+    text-align:center;
+    bottom: 4px;   
+    width:100%;
+    height:50px;
+    background-color: white;
+    color: #AC3B61;
+    z-index:0;
+    opacity:1;   
+    
+}
+
+@media only screen and (max-width: 880px) {
+    #serviceLink, #productsLink, #galleryLink, #aboutLink {
+        width: 46%;       
+        
+    } 
+    
+
+}
+
+
+@media only screen and (max-width: 580px) {
+    #serviceLink, #productsLink, #galleryLink, #aboutLink {
+        width: 60%;
+        margin-left:15%;
+    }
+}
+
+
+
+

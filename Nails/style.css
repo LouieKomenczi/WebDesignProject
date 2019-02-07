@@ -1,0 +1,110 @@
+﻿body {
+    background-image: radial-gradient(circle,#EEE2DC,#EDC7B7);
+    max-width: 1200px;
+    margin: auto;
+    min-width: 600px;
+
+}
+
+#name{
+    color:#123C69;
+}
+
+#phone{
+    color:white;
+    font-size:x-large;
+    position:absolute;
+    left:30%;
+}
+
+#logo{
+    float:left;   
+}
+
+h1{    
+    color:white;
+    float:right;  
+    font-family:'Lucida Bright';
+    font-size:large;
+    padding-right:20px;   
+    padding-top:10px;
+}
+
+
+header {
+   
+    background-color:#AC3B61;
+    background-size: cover;
+    overflow: auto;
+    padding: 5px;
+    padding-left:20px;
+   
+}
+
+nav {
+    clear: left;
+    border-bottom: double;
+    margin-bottom: 20px;
+    border-color: #AC3B61;
+    overflow: auto;
+    z-index: 5;
+}
+
+ul {
+    list-style-type: none;
+   
+}
+
+li {
+    
+    display: inline-block;
+    margin: 5px;
+  
+}
+
+
+#menu {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #AC3B61;
+}
+
+    #menu:hover {
+        color: #123C69;
+    }
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width:1200px;
+    background-color: #EEE2DC;
+    opacity: 0.8;
+}
+
+
+
+
+#map {
+    height: 600px;
+    width: 100%;
+    margin-top:20px;
+}
+
+footer{
+    color:#123C69;
+    float:left; 
+    width:1180px;
+    margin-top:20px;
+    border-top:double;
+    padding:10px;
+}
+
+@media only screen and (max-width: 880px) {
+    #phone {
+        font-size: small;
+        top: 5%;
+    }
+}
+

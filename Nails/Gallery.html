@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style></style>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="gallery.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="myScript.js"></script>
+    <script src="gallery.js"></script>
+
+</head>
+
+<body>
+
+
+
+    <header>
+
+        <h1> Pedicuere, manicure and massage services </h1>
+        <p id="phone"></p>
+        <p id="name">Massage and nails<br /> by Kate</p>
+
+    </header>
+
+
+    <nav id="nav">
+        <a id="logo" href="Home.html"> <img id="logo" src="img/logo1.png" onmouseover="hover(this);" onmouseout="unhover(this);" /> </a>
+        <ul>
+            <li><a id="menu" href="Service.html">Services</a></li>
+            <li><a id="menu" href="Products.html">Products</a></li>
+            <li><a id="menu" href="Gallery.html">Gallery</a></li>
+            <li><a id="menu" href="About.html">About</a></li>
+            <li><a id="menu" href="Findus.html">Find Us</a></li>
+
+        </ul>
+    </nav>
+
+
+    <div class="resizeG">
+        <div class="gallery">            
+            <img class="photo" src="img/gallery/g1.jpg" alt="text" width="600" height="400">            
+        </div>
+    </div>
+
+
+    <div class="resizeG">
+        <div class="gallery">           
+            <img class="photo" src="img/gallery/g2.jpg" alt="text" width="600" height="400">           
+        </div>
+    </div>
+
+    <div class="resizeG">
+        <div class="gallery">            
+            <img class="photo" src="img/gallery/g3.jpg" width="600" height="400">          
+        </div>
+    </div>
+
+    <div class="resizeG">
+        <div class="gallery">            
+            <img class="photo" src="img/gallery/g4.jpg" width="600" height="400">           
+        </div>
+    </div>
+
+    <div class="resizeG">
+        <div class="gallery">           
+            <img class="photo" src="img/gallery/g5.jpg" width="600" height="400">            
+        </div>
+    </div>
+
+
+    <div class="resizeG">
+        <div class="gallery">           
+            <img class="photo" src="img/gallery/g6.jpg" width="600" height="400"> 
+        </div>
+    </div>
+
+    <div class="resizeG">
+        <div class="gallery">            
+            <img class="photo" src="img/gallery/g7.jpg" width="600" height="400">           
+        </div>
+    </div>
+
+    <div class="resizeG">
+        <div class="gallery">    
+            <img class="photo" src="img/gallery/g8.jpg" width="600" height="400">   
+        </div>
+    </div>
+
+    <div class="resizeG">
+        <div class="gallery">  
+            <img class="photo" src="img/gallery/g9.jpg" width="600" height="400">      
+        </div>
+    </div>
+
+
+    <div class="resizeG">
+        <div class="gallery"> 
+             <img class="photo" src="img/gallery/g10.jpg" width="600" height="400">
+        </div>
+    </div>
+
+    <div class="resizeG">
+        <div class="gallery">
+             <img class="photo" src="img/gallery/g11.jpg" width="600" height="400">
+        </div>
+    </div>
+
+    <div class="resizeG">
+        <div class="gallery">
+             <img class="photo" src="img/gallery/g12.jpg" width="600" height="400">
+        </div>
+    </div>
+
+    <div class="resizeG">
+        <div class="gallery">
+             <img class="photo" src="img/gallery/g13.jpg" width="600" height="400">
+        </div>
+    </div>
+
+    <div class="resizeG">
+        <div class="gallery">
+             <img class="photo" src="img/gallery/g14.jpg" width="600" height="400">
+        </div>
+    </div>
+
+    <div class="resizeG">
+        <div class="gallery">
+             <img class="photo" src="img/gallery/g15.jpg" width="600" height="400">
+        </div>
+    </div>
+
+    <div class="resizeG">
+        <div class="gallery">
+             <img class="photo" src="img/gallery/g16.jpg" width="600" height="400">
+        </div>
+    </div>
+
+    <div class="resizeG">
+        <div class="gallery">
+             <img class="photo" src="img/gallery/g17.jpg" width="600" height="400">
+        </div>
+    </div>
+    
+    <div class="resizeG">
+        <div class="gallery">
+             <img class="photo" src="img/gallery/g18.jpg" width="600" height="400">
+        </div>
+    </div>
+
+    <div class="resizeG">
+        <div class="gallery">
+             <img class="photo" src="img/gallery/g19.jpg" width="600" height="400">
+        </div>
+    </div>
+
+    <div class="resizeG">
+        <div class="gallery">
+             <img class="photo" src="img/gallery/g20.jpg" width="600" height="400">
+        </div>
+    </div>
+
+    <div class="resizeG">
+        <div class="gallery">
+             <img class="photo" src="img/gallery/g21.jpg" width="600" height="400">
+        </div>
+    </div>
+
+ 
+    <div id="myModal" class="modal">       
+        <img class="modal-content" id="img">       
+    </div>
+
+    <footer>
+        Massage and nails by Kate <br /> 5 Millbank Glen, Dromahair, Co Leitrim <br /> 0873379891
+    </footer>
+
+    <script>
+        window.onload = function () { modal() };
+
+        window.onscroll = function () { stickNav() };
+
+        var navbutton = document.getElementById("nav");
+        var sticky = navbutton.offsetTop;
+    </script>
+
+</body>
+</html>

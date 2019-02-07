@@ -1,0 +1,45 @@
+﻿#subject {
+    height:200px;
+    width:300px;
+}
+
+
+#yourename, #subject {
+    background-color: #AC3B61;
+    color:white;
+}
+
+#submit {
+    background-color: #AC3B61;
+    color:white;
+}
+
+#photo {
+    border-bottom: double;
+    border-color: #AC3B61;
+}
+
+#photo div{
+    position:relative;
+    left:25%;
+    
+}
+
+#aboutImg {
+    margin-top: 20px;
+    width: 50%;
+}
+
+#message {
+    position: relative;
+    left: 25%;    
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#aboutText {
+    font-family: Calibri;
+    font-size: large;
+    text-align: justify;
+    color: #123C69;
+}

@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style></style>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="about.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="myScript.js"></script>
+    <script src="about.js"></script>
+</head>
+
+<body>
+    <header>
+
+        <h1> Pedicuere, manicure and massage services </h1>
+        <p id="phone"></p>
+        <p id="name">Massage and nails<br /> by Kate</p>
+
+    </header>
+
+
+    <nav id="nav">
+        <a id="logo" href="Home.html"> <img id="logo" src="img/logo1.png" onmouseover="hover(this);" onmouseout="unhover(this);" /> </a>
+        <ul>
+            <li><a id="menu" href="Service.html">Services</a></li>
+            <li><a id="menu" href="Products.html">Products</a></li>
+            <li><a id="menu" href="Gallery.html">Gallery</a></li>
+            <li><a id="menu" href="About.html">About</a></li>
+            <li><a id="menu" href="Findus.html">Find Us</a></li>
+
+        </ul>
+    </nav>
+    <section id="photo">
+        <div >
+            <img id="aboutImg" src="img/about1.jpg" />
+        </div>
+        <p id="aboutText"></p>
+
+    </section>
+    
+
+
+    <section id="message">
+        <form action="mailto:komenczil@gmail.com?subject=From%20website%20subject" method="post" enctype="text/plain">
+            Name:<br>
+            <input id="yourename" type="text" name="name" >
+            <br>
+            Message:<br>
+            <textarea id="subject" name="subject" ></textarea> 
+            <br><br>
+            <input id="submit" type="submit" value="Submit" >            
+        </form>
+
+    </section>
+
+
+
+    <footer>
+        Massage and nails by Kate <br /> 5 Millbank Glen, Dromahair, Co Leitrim <br /> 0873379891
+    </footer>
+
+    <script>
+
+      
+        //typewriter effect on about text
+        window.onload = function () { typeWriter() };
+
+        
+
+    </script>
+
+</body>
+</html>

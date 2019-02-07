@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style></style>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="home.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="myScript.js"></script>
+</head>
+
+<body>
+    <header>
+
+        <h1 id="message"> Pedicuere, manicure and massage services </h1>
+        <p id="phone"></p>
+        <p id="name">Masage and nails<br/>by Kate</p>
+
+    </header>
+
+
+    <nav id="nav">
+        <a id="logo" href="Home.html"> <img id="logo" src="img/logo1.png" onmouseover="hover(this);" onmouseout="unhover(this);" /> </a>
+        <ul>
+            <li><a id="menu" href="Service.html">Services</a></li>
+            <li><a id="menu" href="Products.html">Products</a></li>
+            <li><a id="menu" href="Gallery.html">Gallery</a></li>
+            <li><a id="menu" href="About.html">About</a></li>
+            <li><a id="menu" href="Findus.html">Find Us</a></li>
+
+        </ul>
+    </nav>
+
+    <div id="slide">
+        <img class="homeSlide" src="img/photo1.jpg" style="width:100%;" />
+        <img class="homeSlide" src="img/photo2.jpg" style="width:100%;" />
+        <!--img class="homeSlide" src="img/photo3.jpg" style="width:100%;" /-->
+        <img class="homeSlide" src="img/photo4.jpg" style="width:100%;" />
+
+    </div>
+
+    <div id="serviceLink" >
+        <a href="Service.html"> <img id="service" src="img/services.jpg" style="width:100%;" /></a>
+        <div class="textOverPhoto" id="se" style="opacity:0;">Services </div>
+    </div>
+
+    <div id="productsLink">
+        <a href="Products.html"> <img id="products" src="img/products.jpg" style="width:100%;" /></a>
+        <div class="textOverPhoto" id="pr" style="opacity:0;">Products </div>
+    </div>
+
+    <div id="aboutLink">
+        <a href="About.html"> <img id="about" src="img/about.jpg" style="width:100%;" /></a>
+        <div class="textOverPhoto" id="ab" style="opacity:0;">About </div>
+
+    </div>
+
+    <div id="galleryLink">
+        <a href="Gallery.html"> <img id="gallery" src="img/gallery.jpg" style="width:100%;" /></a>
+        <div class="textOverPhoto" id="ga" style="opacity:0;">Gallery </div>
+
+    </div> 
+
+
+    <script>
+     
+
+        //displays and removes the text over the photos 
+        $(document).ready(function () {
+         
+            $("#service").mouseover(function () {
+                $("#se").stop(true, true).animate({opacity: "1"},1000);
+            });
+            $("#products").mouseover(function () {
+                $("#pr").stop(true, true).animate({ opacity: "1" }, 1000);
+            });
+            $("#about").mouseover(function () {
+                $("#ab").stop(true, true).animate({ opacity: "1" }, 1000);
+            });
+            $("#gallery").mouseover(function () {
+                $("#ga").stop(true, true).animate({ opacity: "1" }, 1000);
+            });
+            
+            $("#service").mouseout(function () {
+                $("#se").stop(true, true).animate({ opacity: "0" });
+            });
+            $("#products").mouseout(function () {
+                $("#pr").stop(true, true).animate({ opacity: "0" });
+            });
+            $("#about").mouseout(function () {
+                $("#ab").stop(true, true).animate({ opacity: "0" });
+            });
+            $("#gallery").mouseout(function () {
+                $("#ga").stop(true, true).animate({ opacity: "0" });
+            });
+        });
+
+        
+
+        //rotating the images 
+        carousel();  
+
+        //stick the navigation bar 
+        window.onscroll = function () {stickNav()};
+
+        var navbutton = document.getElementById("nav");
+        var sticky = navbutton.offsetTop;
+
+        //resize the photos on window resize 
+        window.onresize = function () { resize() };
+        window.onload = function () { resize() };        
+       
+    </script>
+
+
+</body>
+</html>

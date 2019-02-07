@@ -1,0 +1,18 @@
+﻿#map, section {
+    border: groove;    
+    box-shadow: 5px 5px #123C69;
+}
+
+#timeTable {
+   
+    width:100%;
+}
+
+th,td{
+    padding:5px;
+}
+
+section {
+    margin-top: 20px;
+    color: #AC3B61;
+}

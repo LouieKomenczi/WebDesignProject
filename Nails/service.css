@@ -1,0 +1,61 @@
+﻿.photoLeft {
+    position: relative;
+    float: left;
+    margin-bottom: 20px;
+    width: 60%;
+    height: auto;
+    overflow: auto;
+}
+
+.textRight {
+    position:relative;
+    float: left;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 30%;
+    height: auto;
+    overflow: auto;
+    margin-left: 40px;
+}
+
+.photoRight {
+    position: relative;
+    float: right;
+    margin-bottom: 20px;
+    width: 60%;
+    height: auto;
+    overflow: auto;
+    margin-left: 40px;
+}
+
+.textLeft {
+    position: relative;
+    float: right;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 30%;
+    height: auto;
+    overflow: auto;
+}
+
+h4 {
+    display: flex;
+    font-family: Calibri;
+    margin: 0px;
+    color: #AC3B61;
+}
+
+h2 {
+    margin-top: 0px;
+    font-family:Papyrus;
+    color: #123C69;
+    font-size:35px;
+    font-weight:bold;
+}
+
+h5 {
+    font-family: Calibri;
+    font-weight: bold;
+    color: #AC3B61;
+}
+

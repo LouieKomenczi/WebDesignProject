@@ -1,0 +1,35 @@
+﻿.item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: arial;  
+    overflow:auto;
+    padding:10px;
+    margin:10px;
+}
+
+
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.resize {
+
+    float: left;
+    width: 32.9%;
+}
+
+@media only screen and (max-width: 900px) {
+    .resize {
+        width: 50%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .resize {
+        width: 100%;
+    }
+}
+
